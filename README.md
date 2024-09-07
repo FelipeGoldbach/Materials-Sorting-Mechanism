@@ -31,15 +31,15 @@ In order to ensure optimal performance of system functions, such as item categor
 Calibration of the ADC conversions were a critical aspect of this project, as this would ultimately determine the category of each of the 48 pieces passing through the system. In order to properly calibrate the ADC, the LCD was programmed to display the optimal ADC values as each item passes through the reflective sensor. Twelve pieces of each item type were sent through the reflective sensor and their ADC readings were recorded in an attempt to find the highest and lowest values for each piece type. Aluminum, being the most reflective piece, had the lowest ADC values, and thus only a maximum range was necessary and after the 12 trials, Aluminum pieces never had ADC values above 100. Steel was observed to have ADC values of no less than 300, averaging these results, it was determined that any piece with ADC values lower than 200 would fall into the aluminum category. Most steels were ranging from 380 to 580, and white plastic had values no less than 800, thus any items with ADC values between 201 and 700 would go into the steel category. The black and white plastics had ADC values that were much closer to each other, meaning a highly extensive analysis of ADC values were required. Average White plastic values ranged from 890 to 920, while average black plastic values ranged from 950 to 980. Therefore, it was determined that pieces with ADC values from 701 to 935 would be classified into the white plastic category, and all items higher than 935 would be classified as black plastic. These boundaries were chosen as they gave plenty of wiggle room for reading slightly higher or below the expected values, while also ensuring pieces would not fall into wrong categories. This arrangement of boundaries allowed for multiple runs with zero errors. The minimum to maximum values and final boundaries can be seen in Table 1 and Table 2 respectively.
 
 Calibration Results Example:
-Item Type
-Minimum - Maximum ADC Value
-Aluminum
+Item Type,
+Minimum - Maximum ADC Value;
+Aluminum,
 30 - 100
-Steel
+Steel,
 300 - 600
-White Plastic
+White Plastic,
 800 - 920
-Black Plastic
+Black Plastic,
 950 - 990
 
 Item Type
