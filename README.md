@@ -33,13 +33,13 @@ Calibration of the ADC conversions were a critical aspect of this project, as th
 Calibration Results Example:
 Item Type,
 Minimum - Maximum ADC Value;
-Aluminum,
-30 - 100
-Steel,
-300 - 600
-White Plastic,
-800 - 920
-Black Plastic,
+Aluminum
+30 - 100,
+Steel
+300 - 600,
+White Plastic
+800 - 920,
+Black Plastic
 950 - 990
 
 Item Type
