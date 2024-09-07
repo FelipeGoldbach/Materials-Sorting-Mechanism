@@ -45,11 +45,11 @@ Black Plastic
 Item Type
 Final Maximum Acceptable Boundaries for ADC Values
 Aluminum
-<200
+<200,
 Steel
-<700
+<700,
 White Plastic
-<935
+<935,
 Black Plastic
 <1024
 
